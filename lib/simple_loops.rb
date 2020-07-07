@@ -22,9 +22,9 @@ end
 
 def return_string_array(array)
   # array.map {|x| x.to_s}
-    count = 0
+  count = 0
   while count < array.length do
-    puts array
+    array[count].to_s
     count += 1
   end
 end 
