@@ -19,3 +19,7 @@ def output_array(array)
   # end
   array.each {|x| puts x}
 end
+
+def return_string_array(array)
+  array.each {|x| x}
+end 
