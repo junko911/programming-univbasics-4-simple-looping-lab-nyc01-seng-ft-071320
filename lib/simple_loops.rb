@@ -12,9 +12,10 @@ def loop_message_n_times(msg, num)
 end
 
 def output_array(array)
-  count = 0
-  while count < array.length do
-    puts array
-    count += 1
-  end
+  # count = 0
+  # while count < array.length do
+  #   puts array
+  #   count += 1
+  # end
+  array.each {|x| puts x}
 end
