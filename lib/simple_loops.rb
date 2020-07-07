@@ -21,5 +21,12 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.map {|x| x.to_s}
+  # array.map {|x| x.to_s}
+    count = 0
+  while count < array.length do
+    puts array
+    count += 1
+  end
 end 
+
+
