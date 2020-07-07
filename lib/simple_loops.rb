@@ -24,9 +24,10 @@ def return_string_array(array)
   # array.map {|x| x.to_s}
   count = 0
   while count < array.length do
-    array[count].to_s
+    array[count] = array[count].to_s
     count += 1
   end
+  array
 end 
 
 
